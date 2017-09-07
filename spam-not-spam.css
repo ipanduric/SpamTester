@@ -1,0 +1,55 @@
+    .jumbotron1 button{
+                margin: 20px 10px 20px 10px;
+            }
+            .jumbotron1 h1{
+                text-shadow: 1px 0 0 black, -1px 0 0 #000, 0 2px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+            }
+            .jumbotron1 p{
+                text-shadow: 1px 0 0 black, -1px 0 0 #000, 0 2px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+                font-family: Roboto;
+                color: white;
+        
+            }
+            .jumbotron1 img{
+                 width: 200px;
+            }
+
+            .jumbotron1{
+                 position: relative;
+                 background: rgba(100,100,100, 0.4);
+                 color: white;
+                 text-shadow: 3px 3px black;
+                 align-items: center;
+                 font-family: Poppins;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+            }
+             .my-button1{
+                background-color: #01AD01;
+                color: white;
+                text-shadow: 0px 0px;
+                box-shadow: 3px 3px #333;
+                margin:10px 10px 10px 10px;
+            }
+
+            .my-button1:hover{
+                background-color: #20B921;
+                color: white;
+                box-shadow:0px 0px;
+                transform:translate(3px, 3px);
+            }
+             .my-button2{
+                background-color: #D60000;
+                color: white;
+                text-shadow: 0px 0px;
+                box-shadow: 3px 3px #333;
+                margin:10px 10px 10px 10px;
+            }
+
+            .my-button2:hover{
+                background-color: #FE2C2D;
+                color: white;
+                box-shadow:0px 0px;
+                transform:translate(3px, 3px);
+            }

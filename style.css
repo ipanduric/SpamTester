@@ -1,0 +1,79 @@
+html,body{
+               height: 100%;
+               width:100%;
+           }
+
+           p {
+                font-family: Roboto;
+                font-size:18px;
+                color:gray;
+            }
+
+           h3{
+               font-size: 30px;
+               font-family: Poppins;
+           }
+
+          
+           #custom_header{
+                background-image: url("header_img.jpg");
+                background-size : cover;
+                height: 100%;
+               width:100%;
+               min-height: 500px;
+            }
+           
+           
+            .jumbotron{
+                position: relative;
+                 background: rgba(100,100,100, 0.4);
+                 color: white;
+                 text-shadow: 3px 3px black;
+                 align-items: center;
+                 font-family: Poppins;
+                font-weight: bold;
+                top:30%;
+                transform: translateY(-30%);
+            }
+
+            .jumbotron button{
+                margin: 20px 10px 20px 10px;
+            }
+            
+            .jumbotron p{
+                text-shadow: 1px 0 0 black, -1px 0 0 #000, 0 2px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+                font-family: Roboto;
+                color: white;
+        
+            }
+            .my-button{
+                background-color: #01A8B1;
+                color: white;
+                text-shadow: 0px 0px;
+                box-shadow: 3px 3px #333;
+                margin:10px 10px 10px 10px;
+            }
+
+            .my-button:hover{
+                background-color: #007981;
+                color: white;
+                box-shadow:0px 0px;
+                transform:translate(3px, 3px);
+            }
+
+            section{
+                height: 100%;
+                text-align: center;
+            }
+
+            #section-test img{
+                margin-top:50px;
+                width: 250px;
+            }
+
+    
+        
+           
+
+             
+          
